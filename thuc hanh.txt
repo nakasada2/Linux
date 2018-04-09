@@ -1,0 +1,48 @@
+﻿Bài 1 :
+*Sử dụng lệnh touch để tạo một file trống : $ touch filename
+
+*Sử dụng lệnh touch để tạo nhiều file cùng lúc : $ touch filename1 filename2 ...
+
+*Công dụng của lệnh cat :
+
+ Hiển Thị Nội Dung Một Tập Tin : $ cat file
+
+ Hiển Thị Nội Dung Nhiều Tập Tin : $ cat filename filename2 ...
+
+ Hiển Thị Nội Dung Tập Tin Với Số Dòng : $cat -n filename
+
+ Nối Nội Dung Nhiều Tập Tin : $cat finame1 filename2 ... roi /filename3
+
+
+
+Bai 2 :
+
+*Hiển thị số lượng các từ trong một file text : $ wc -w file
+
+*Hiển thị số dòng trong một file text : $ wc -l file
+
+*Hiển thị số ký tự trong một file text : $ wc -c file
+
+*Hiển thị số lượng các file trong một thư mục cụ thể nào đó : $ls | wc -l
+
+
+
+Bai 3 :
+
+*Dùng lệnh cat xem /etc/passwd rồi copy tập tin passwd sang /mydir/mypasswords.txt:
+	
+$cp passwd ~/mydir/mypasswords.txt
+
+*Dùng lệnh head cho biết thông tin về 3 user đầu trong mypasswords.txt:
+
+$head -n 3 line
+
+*Dùng lệnh tail cho biết thông tin về 3 user cuối trong mypasswords.txt:
+
+$tail -n 3 line
+
+*Sử dụng lệnh wc cho thích hợp để cho biết tổng số user trong mypassword.txt:
+
+$wc -l mypassword.txt
+
+
